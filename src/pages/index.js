@@ -73,7 +73,20 @@ export default ({ data }) => (
       <p className="font-bold text-2xl font-header">
         We'd love to hear from you
       </p>
-      <form className="flex flex-col">
+      <form
+        method="post"
+        action="/thanks"
+        name="contact"
+        data-netlify="true"
+        netlify-honeypot="bot"
+        className="flex flex-col"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <div className="invisible">
+          <label>Don't Fill this out, human</label>
+          <input name="bot" />
+        </div>
+
         <input
           className="border border-gray-400 m-4 p-2"
           type="text"
