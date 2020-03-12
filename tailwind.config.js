@@ -1,0 +1,48 @@
+module.exports = {
+  theme: {
+    fontSize: {
+      tiny: ".5rem",
+      xs: ".75rem",
+      sm: ".875rem",
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "4rem",
+      "7xl": "5rem",
+    },
+    fontFamily: {
+      header: ['"Helvetica Neue"'],
+      body: ['"Helvetica Neue"'],
+    },
+    textColor: {
+      primary: "#0071BC",
+      secondary: "#F15A24",
+      white: "#FFF",
+      black: "#000",
+      "grey-200": "#edf2f7",
+      "grey-600": "#718096;",
+      "grey-700": "#4a5568;",
+    },
+    backgroundColor: {
+      primary: "#0071bc",
+      secondary: "#F15A24",
+      white: "#FFF",
+      "grey-100": "#f7fafc",
+    },
+    opacity: {
+      0: "0",
+      25: ".25",
+      50: ".5",
+      70: ".7",
+      75: ".75",
+      100: "1",
+    },
+    extend: {},
+  },
+  variants: {},
+  plugins: [],
+}
